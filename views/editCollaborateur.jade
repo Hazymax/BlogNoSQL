@@ -1,0 +1,10 @@
+extends layout
+
+block content 
+	h1=title
+	form#formEditUser(name="editUser",method="post",action="/editUser")
+	input#inputUserName(type="text",name="userID",value="#{user_res._id}"+"")
+	input#inputUserName(type="text",name="username",value="#{user_res.username}"+"")
+	input#inputUserEmail(type="text",name="usermail",value="#{user_res.email}"+"")
+	input#inputUserEmploi(type="text",name="useremploi",value="#{user_res.emploi}"+"")
+	button#btnSubmit(type="submit") modifier

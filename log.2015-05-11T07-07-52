@@ -1,0 +1,57 @@
+2015-04-27T11:43:27.062+0200 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] MongoDB starting : pid=6844 port=27017 dbpath=C:\Program Files\nodejs\blog7\data 64-bit host=Max-PC
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] db version v3.0.0
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] git version: a841fd6394365954886924a35076691b4d149168
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1j-fips 15 Oct 2014
+2015-04-27T11:43:27.063+0200 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-04-27T11:43:27.064+0200 I CONTROL  [initandlisten] allocator: system
+2015-04-27T11:43:27.064+0200 I CONTROL  [initandlisten] options: { storage: { dbPath: "C:\Program Files\nodejs\blog7\data" }, systemLog: { destination: "file", path: "C:\Program Files\nodejs\blog7\log" } }
+2015-04-27T11:43:27.074+0200 I JOURNAL  [initandlisten] journal dir=C:\Program Files\nodejs\blog7\data\journal
+2015-04-27T11:43:27.074+0200 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-04-27T11:43:27.476+0200 I JOURNAL  [initandlisten] preallocateIsFaster=true 2.74
+2015-04-27T11:43:27.782+0200 I JOURNAL  [durability] Durability thread started
+2015-04-27T11:43:27.783+0200 I JOURNAL  [journal writer] Journal writer thread started
+2015-04-27T11:43:27.813+0200 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-04-27T11:43:28.240+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63484 #1 (1 connection now open)
+2015-04-27T11:43:28.243+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63485 #2 (2 connections now open)
+2015-04-27T11:43:28.247+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63486 #3 (3 connections now open)
+2015-04-27T11:43:28.252+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63487 #4 (4 connections now open)
+2015-04-27T11:43:28.259+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63488 #5 (5 connections now open)
+2015-04-27T11:43:33.386+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63489 #6 (6 connections now open)
+2015-04-27T11:43:38.549+0200 I NETWORK  [conn4] end connection 127.0.0.1:63487 (5 connections now open)
+2015-04-27T11:43:38.549+0200 I NETWORK  [conn2] end connection 127.0.0.1:63485 (5 connections now open)
+2015-04-27T11:43:38.549+0200 I NETWORK  [conn5] end connection 127.0.0.1:63488 (5 connections now open)
+2015-04-27T11:43:38.549+0200 I NETWORK  [conn1] end connection 127.0.0.1:63484 (5 connections now open)
+2015-04-27T11:43:38.549+0200 I NETWORK  [conn3] end connection 127.0.0.1:63486 (4 connections now open)
+2015-04-27T11:43:44.081+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63490 #7 (2 connections now open)
+2015-04-27T11:43:44.092+0200 I NETWORK  [conn7] end connection 127.0.0.1:63490 (1 connection now open)
+2015-04-27T11:43:44.097+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63491 #8 (2 connections now open)
+2015-04-27T11:43:44.099+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63492 #9 (3 connections now open)
+2015-04-27T11:43:44.100+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63493 #10 (4 connections now open)
+2015-04-27T11:43:44.102+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63494 #11 (5 connections now open)
+2015-04-27T11:43:44.103+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63495 #12 (6 connections now open)
+2015-04-27T11:50:26.461+0200 I CONTROL  Ctrl-C signal
+2015-04-27T11:50:26.461+0200 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-04-27T11:50:26.461+0200 I CONTROL  [consoleTerminate] now exiting
+2015-04-27T11:50:26.461+0200 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-04-27T11:50:26.461+0200 I NETWORK  [consoleTerminate] closing listening socket: 412
+2015-04-27T11:50:26.461+0200 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-04-27T11:50:26.461+0200 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-04-27T11:50:26.461+0200 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-04-27T11:50:26.462+0200 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-04-27T11:50:26.462+0200 I NETWORK  [conn10] end connection 127.0.0.1:63493 (5 connections now open)
+2015-04-27T11:50:26.462+0200 I NETWORK  [conn9] end connection 127.0.0.1:63492 (5 connections now open)
+2015-04-27T11:50:26.462+0200 I NETWORK  [conn6] end connection 127.0.0.1:63489 (5 connections now open)
+2015-04-27T11:50:26.463+0200 I NETWORK  [conn8] end connection 127.0.0.1:63491 (2 connections now open)
+2015-04-27T11:50:26.463+0200 I NETWORK  [conn11] end connection 127.0.0.1:63494 (1 connection now open)
+2015-04-27T11:50:26.463+0200 I NETWORK  [conn12] end connection 127.0.0.1:63495 (0 connections now open)
+2015-04-27T11:50:26.517+0200 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-04-27T11:50:26.517+0200 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-04-27T11:50:26.518+0200 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-04-27T11:50:26.564+0200 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-04-27T11:50:26.564+0200 I JOURNAL  [durability] Durability thread stopped
+2015-04-27T11:50:26.564+0200 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-04-27T11:50:26.567+0200 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-04-27T11:50:26.567+0200 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-04-27T11:50:26.567+0200 I CONTROL  [consoleTerminate] dbexit:  rc: 12
